@@ -28,7 +28,8 @@ img{
 
 section{
     background-color: white;
-    width: 500px;
+    width: 80vw;
+    max-width: 800px;
     padding: 20px 0px 45px 0px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
@@ -37,6 +38,10 @@ section{
 }
 #msg{
     padding-bottom: 20px;
+    font-size: 24px;
+}
+#saudacao{
+    padding-top: 20px;
     font-size: 24px;
 }
 footer{
