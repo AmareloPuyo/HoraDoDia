@@ -17,7 +17,7 @@ function atualizaFoto(){
     if (hora >= 6 && hora < 12) {
         imagem.src = 'manha.jpg'
         document.body.style.background = '#E1BE05'
-        saudacao.innerHtml = 'Bom Dia!'
+        saudacao.innerHTML = 'Bom Dia!'
         
     }
     else if (hora >= 12 && hora <= 18) {
